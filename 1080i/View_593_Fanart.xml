@@ -25,7 +25,7 @@
 				<preloaditems>2</preloaditems>
 				<pagecontrol>59360</pagecontrol>
 				<scrolltime tween="sine">500</scrolltime>
-				<visible>Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(artists)</visible>
+				<visible>Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(artists) | $EXP[AKLGameBrowse]</visible>
 				<visible>!Container.Content(musicvideos) + !String.StartsWith(container.folderpath,library://video/musicvideos/) + !String.StartsWith(container.folderpath,videodb://musicvideos)</visible>
 				<itemlayout width="1920" height="1080">
 					<control type="image">

@@ -1230,6 +1230,13 @@
 					<onclick>Dialog.Close(1129)</onclick>
 				</item>
 				<item>
+					<label>Fanart</label>
+					<label2>tajo/fanart.jpg</label2>
+					<onclick>Container.SetViewMode(593)</onclick>
+					<onclick>Dialog.Close(1129)</onclick>
+					<visible>$EXP[AKLGameBrowse]</visible>
+				</item>
+				<item>
 					<label>Wall</label>
 					<onclick>Container.SetViewMode(583)</onclick>
 					<onclick>Dialog.Close(1129)</onclick>
