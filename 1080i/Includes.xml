@@ -7,6 +7,7 @@
 	<include file="Includes_Animations.xml"/>
 	<include file="Includes_Home.xml"/>
 	<include file="Includes_Games.xml"/>
+	<include file="Includes_AKL.xml"/>
 	<include file="Includes_LiveBG.xml"/>
 	<include file="Includes_LiveTV.xml"/>
 	<include file="Includes_LiveTV_Views.xml"/>

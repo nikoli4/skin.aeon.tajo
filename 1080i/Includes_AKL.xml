@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes>
+    <!-- True while browsing Advanced Kodi Launcher -->
+    <expression name="AKLGameBrowse">
+        String.Contains(Container.FolderPath,plugin://plugin.program.akl)
+    </expression>
+</includes>

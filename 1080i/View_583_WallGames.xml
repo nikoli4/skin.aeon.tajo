@@ -27,7 +27,7 @@
 				</control>
 			</control>
 			<control type="panel" id="583">
-				<visible>Container.Content(Games)</visible>
+				<visible>Container.Content(Games) | $EXP[AKLGameBrowse]</visible>
 				<left>46</left>
 				<top>75</top>
 				<width>1828</width>
@@ -92,14 +92,14 @@
 		</control>
 		<control type="group">
 			<top>78</top>
-			<visible>Container.Content(Games)</visible>
+			<visible>Container.Content(Games) | $EXP[AKLGameBrowse]</visible>
 			<visible>Control.IsVisible(583)</visible>
 			<animation effect="fade" time="300">Visible</animation>
 			<animation effect="fade" time="300">Hidden</animation>
 			<animation effect="fade" time="300">WindowOpen</animation>
 			<animation effect="fade" time="300">WindowClose</animation>
 			<control type="group">
-				<visible>Container.Content(Games)</visible>
+				<visible>Container.Content(Games) | $EXP[AKLGameBrowse]</visible>
 				<top>10</top>
 				<control type="image" id="499">
 					<left>835</left>
