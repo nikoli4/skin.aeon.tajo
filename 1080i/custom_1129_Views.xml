@@ -1240,7 +1240,13 @@
 					<label>Wall</label>
 					<onclick>Container.SetViewMode(583)</onclick>
 					<onclick>Dialog.Close(1129)</onclick>
-					<visible>[Window.IsActive(games) + Container.Content(games)] | $EXP[AKLGameBrowse]</visible>
+					<visible>Window.IsActive(games) + Container.Content(games)</visible>
+				</item>
+				<item>
+					<label>Wall</label>
+					<onclick>Container.SetViewMode(600)</onclick>
+					<onclick>Dialog.Close(1129)</onclick>
+					<visible>$EXP[AKLGameBrowse]</visible>
 				</item>
 			</content>
 		</control>

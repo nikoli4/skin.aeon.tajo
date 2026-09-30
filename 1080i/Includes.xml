@@ -21,6 +21,7 @@
 	<include file="View_504_FanWall.xml"/>
 	<include file="View_580_WideWall.xml"/>
 	<include file="View_583_WallGames.xml"/>
+	<include file="View_583_AKLWall.xml"/>
 	<include file="View_581_Bannerm.xml"/>
 	<include file="View_582_Pictures.xml"/>
 	<include file="View_585_Discog.xml"/>
